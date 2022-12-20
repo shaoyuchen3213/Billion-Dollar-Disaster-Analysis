@@ -14,3 +14,17 @@ This dataset holds 12 columns and 338 rows of information on 7 disasters.  This 
 Preview of the first 5 rows of our dataset using the .head() function.
 
 ![1671514806065](https://user-images.githubusercontent.com/35966970/208592203-00114f27-aad0-40a3-a125-4c5f2927392c.jpg)
+
+How are different disasters distributed each year?
+We use the pivot function, and set index equal to 'begin year’, which is xlabel, and use the .grid() function to configure the grid lines.
+![1671514902037](https://user-images.githubusercontent.com/35966970/208592434-b2ad3685-1a3d-4e88-b897-91f40b53be51.jpg)
+
+
+Regression Analysis
+We use ‘Deaths’ and our new variable ‘Duration’ as X and set the new variable ‘Amount’ as our Y because the objective is to analyze correlations between these three variables by running the stats model.
+
+From the OLS Regression Result, there is a strong correlation between Death and Amount, which means the deadlier the disaster is, the more costly it can make. 
+
+In contrast, with a p-value greater than 0.05, Duration has no significant impact on the Amount.
+
+![1671514985471](https://user-images.githubusercontent.com/35966970/208592570-c10f0072-b00e-43b1-8a85-2fb56c6c342b.jpg)
