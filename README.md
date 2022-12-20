@@ -28,3 +28,15 @@ From the OLS Regression Result, there is a strong correlation between Death and 
 In contrast, with a p-value greater than 0.05, Duration has no significant impact on the Amount.
 
 ![1671514985471](https://user-images.githubusercontent.com/35966970/208592570-c10f0072-b00e-43b1-8a85-2fb56c6c342b.jpg)
+
+
+Because the trend of disaster occurrence is increasing, the market demand for disaster insurance is considerable. Insurance companies should consider adding disaster insurance to product items.
+
+The number of Severe Storm occurrences per year is increasing at an alarming rate, and the number of deaths is relatively low, so it is a high-demand and profitable item.
+
+Companies that already have disaster insurance as their product should increase the price of disaster insurance in Tropical Cyclone. It is a highly risky item with a short duration and the largest number of deaths.
+
+More disasters occur in Spring and Summer, so companies should consider increasing prices in these two seasons.
+
+
+
